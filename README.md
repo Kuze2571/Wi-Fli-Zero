@@ -29,7 +29,7 @@ Identify the 3V, GND, RX and TX pins on your ESP card, then you can solder all o
 
 Unmount the Flipper Zero (you can use the following [documentation](https://www.ifixit.com/Teardown/Flipper+Zero+Teardown/151455)) until you got the case and electronic parts separated (step 8):
 
-![[2023-11-20_21-51.png]]
+![[2023-11-20_21-51.png]](https://github.com/Kuze2571/Wi-Fli-Zero/blob/main/img/2023-11-20_21-51.png)
 
 Once done, test the fitting in the new case. If everything goes well, you can proceed to the removal of the NFC/RFID card and battery, then remove the screen protector, NFC antenna (be careful with this !) and infrared cover from the old Fzero case.
 
@@ -39,7 +39,7 @@ Once you have removed the battery, identify the RX, TX, GND and 3V pins and sold
 3. GND
 4. 3V
 
-![[IMG_5054.jpg]]
+![[IMG_5054.jpg]](https://github.com/Kuze2571/Wi-Fli-Zero/blob/main/img/IMG_5054.jpg)
 
 You can put a piece of kapton tape as I've done but this part is optional here.
 Now place your battery temporarily to measure the wires length you'll need to place the ESP32, take the battery off and solder the cables on the card (for the 3V part, don't forget you should solder the other part of the connector !):
@@ -48,19 +48,19 @@ Now place your battery temporarily to measure the wires length you'll need to pl
 3. GND
 4. 3V
 
-![[IMG_5055.jpg]]
-![[IMG_5056.jpg]]
+![[IMG_5055.jpg]](https://github.com/Kuze2571/Wi-Fli-Zero/blob/main/img/IMG_5055.jpg)
+![[IMG_5056.jpg]](https://github.com/Kuze2571/Wi-Fli-Zero/blob/main/img/IMG_5056.jpg)
 
 Once you are good with this step, mount the battery, your flipper will automatically boot, just turn it off.
 
 As our flipper will have a card between the NFC/RFID card and the NFC antenna, we will need to reconnect them using connectors (so the rear part of the FZero will still be removable). To do so, solder connectors on the NFC/RFID card as on the picture below:
 
-![[IMG_5058.jpg]]
+![[IMG_5058.jpg]](https://github.com/Kuze2571/Wi-Fli-Zero/blob/main/img/IMG_5058.jpg)
 
 Replace it on the FZero main board and reconnect it to the rest of the Fzero electronics.
 
 Solder a connector (the other side of it) to the switch and glue the switch in place (3), then solder connectors on the NFC antenna pads (1 & 2):
-![[IMG_5061 1.jpg]]
+![[IMG_5061 1.jpg]](https://github.com/Kuze2571/Wi-Fli-Zero/blob/main/img/IMG_5061.jpg)
 
 > This time the kapton tape is important.
 
@@ -69,8 +69,8 @@ Now take the rear case of the Fzero and glue the antenna to it (either with doub
 If you want to flash marauder on your S3 mini, that's your time to do it.
 
 Once all of this is done you are ready to plug all of the connectors together, put you SD card in the FZero and initiate your first test of it !
-![[IMG_5062.jpg]]
-![[IMG_5067.png]]
+![[IMG_5062.jpg]](https://github.com/Kuze2571/Wi-Fli-Zero/blob/main/img/IMG_5062.jpg)
+![[IMG_5067.png]](https://github.com/Kuze2571/Wi-Fli-Zero/blob/main/img/IMG_5067.png)
 
 おめでとう !!
 
