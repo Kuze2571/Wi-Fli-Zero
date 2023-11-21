@@ -3,7 +3,7 @@ Adding Integrated Wi-Fi possibilities to the flipper zero.
 
 ## Materials
 
-- [WEMOS ESP32-S3 (Lolin)](https://www.wemos.cc/en/latest/s3/s3_mini.html)
+- [WEMOS ESP32-S3 mini (Lolin)](https://www.wemos.cc/en/latest/s3/s3_mini.html)
 - Flipper Zero
 - 2 positions switch
 - Wires 
